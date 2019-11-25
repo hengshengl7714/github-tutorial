@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+by Hengsheng Liu 
 
 ---
 ## Git vs. GitHub
