@@ -31,8 +31,8 @@ When **forking** or **cloning**, make sure using **SSH** not HTTPS because HTTPS
 ---
 ## Repository Setup
 When you want initialize Git inside your folder
-1. **Git init** - initilaized Git inside the folder and the folder should change from xxx/xxx to xxx/xxx/(Master)
-2. **Git add .** - add the current working directory to the staging area and you should see something like this
+1. **Git init** - Initilaized Git inside the folder and the folder should change from xxx/xxx to xxx/xxx/(Master)
+2. **Git add .** - Add the current working directory to the staging area and you should see something like this
 3. Recommend to type **git status** to check the status of the file
 4. When you typed in **git status** and the file is ready for committing. Git status will like this
  ```bash
@@ -58,7 +58,20 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-5. **Git commit -m "message"** - take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot (‘create HTML template”)
+5. **Git commit -m "message"** - Take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot (‘create HTML template”)
+6. Personal choice - could type git status to check again.
+7. git push - push the version to a remote server like GitHub. 
+
+Set up remote 
+1. **git remote add origin URL** - Set up connection between local IDE and a remote server. URL = SSH 
+2. ** git push -u origin master** - First time pushing the changes to a remote but after the first time you could just type **git push** to push the changes. 
+3. **git remote -v** - could you where is the committs send to. 
+```bash
+origin  git@github.com:hengshengl7714/github-tutorial.git (fetch)
+origin  git@github.com:hengshengl7714/github-tutorial.git (push)
+```
+
+
 ---
 ## Workflow & Commands
 
