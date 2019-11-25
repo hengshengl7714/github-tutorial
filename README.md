@@ -18,6 +18,8 @@ by Hengsheng Liu
 ---
 ## Initial Setup
 
+Log into the [Github website](https://github.com/) to create a GitHub accout
+![GitHub Login](Signup.PNG)
 
 
 ---
