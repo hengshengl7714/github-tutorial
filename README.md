@@ -21,6 +21,12 @@ by Hengsheng Liu
 Log into the [Github website](https://github.com/) to create a GitHub accout
 ![GitHub Login](Signup.PNG)
 
+Here is a good link of how to connect Github with IDE
+![Setup IDE](https://github.com/hstatsep/ide50)
+
+When **forking** or **cloning**, make sure using **SSH** not HTTPS because HTTPS have to check your identity and you have to type password and username everytime. on the other side, **SSH** doesn't require it. 
+![SSH](SSH.PNG)
+
 
 ---
 ## Repository Setup
