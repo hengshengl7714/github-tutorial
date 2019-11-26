@@ -60,12 +60,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 5. **Git commit -m "message"** - Take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot (‘create HTML template”)
 6. Personal choice - could type git status to check again.
-7. git push - push the version to a remote server like GitHub. 
+7. **Git push** - push the version to a remote server like GitHub. 
 
 Set up remote 
-1. **git remote add origin URL** - Set up connection between local IDE and a remote server. URL = SSH 
-2. ** git push -u origin master** - First time pushing the changes to a remote but after the first time you could just type **git push** to push the changes. 
-3. **git remote -v** - could you where is the committs send to. 
+1. **Git remote add origin URL** - Set up connection between local IDE and a remote server. URL = SSH 
+2. **Git push -u origin master** - First time pushing the changes to a remote but after the first time you could just type **git push** to push the changes. 
+3. **Git remote -v** - could you where is the committs send to. 
 ```bash
 origin  git@github.com:hengshengl7714/github-tutorial.git (fetch)
 origin  git@github.com:hengshengl7714/github-tutorial.git (push)
