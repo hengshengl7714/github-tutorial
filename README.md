@@ -79,3 +79,10 @@ origin  git@github.com:hengshengl7714/github-tutorial.git (push)
 
 ---
 ## Rolling Back Changes
+**git reset --hard HEAD~1** - Undo all the changes after committed the change.  
+**git reset --soft HEAD~1** - Undo the commit after committed the change.  
+**git reset HEAD~1** - Undo both the commit and the add after committed the change.  
+**git reset HEAD filename** - Undo the adding after added to the stage area.  
+**git checkout -- filename** - Undo the all the editing before adding
+
+![revertchange](Reverting.PNG)
