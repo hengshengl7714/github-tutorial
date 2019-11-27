@@ -78,9 +78,22 @@ origin  git@github.com:hengshengl7714/github-tutorial.git (push)
 1. editing inside of the repo 
 2. type **git status** to see whether the file is modified or not(it should be in red).
 3. type **git add .** to add the changes to the stage so the file is ready to commit.
-4. type **git status** to see whether the file is added to the stage or not (now it should be green).
+4. type **git status** to see whether the file is added to the stage or not(now it should be green).
 5. type **git commit -m "message"** to commit the change and Git will save a record of the change 
-6. type **git staus** it should say nothing to commit
+6. type **git staus** it should say nothing to commit and say you're ahead of your remote repo x times 
+
+```bash
+[master 56c1b57] add workflow
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+~/github-learning/github-tutorial/ (master) $ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+```
+
+7. type **git push** to push the commit to your remote(GitHub).
 
 
 ---
@@ -92,3 +105,11 @@ origin  git@github.com:hengshengl7714/github-tutorial.git (push)
 **git checkout -- filename** - Undo the all the editing before adding
 
 ![revertchange](revert.PNG)
+
+---
+## Error handling 
+* How to remove from a directory? -- inside the directory type **rm -rf .git** 
+* How to remove a repo locally? -- go to the parent folder of the repo and type **rm -rf [folder name]**
+* How to remove a repo remotelly? 
+    1. go to your remote website (GitHub) 
+
