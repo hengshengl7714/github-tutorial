@@ -62,7 +62,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 6. Personal choice - could type git status to check again.
 7. **Git push** - push the version to a remote server like GitHub. 
 
-Set up remote 
+## Set up remote
 1. **Git remote add origin URL** - Set up connection between local IDE and a remote server. URL = SSH 
 2. **Git push -u origin master** - First time pushing the changes to a remote but after the first time you could just type **git push** to push the changes. 
 3. **Git remote -v** - could you where is the committs send to. 
@@ -74,7 +74,13 @@ origin  git@github.com:hengshengl7714/github-tutorial.git (push)
 
 ---
 ## Workflow & Commands
-
+**Workflow**
+1. editing inside of the repo 
+2. type **git status** to see whether the file is modified or not(it should be in red).
+3. type **git add .** to add the changes to the stage so the file is ready to commit.
+4. type **git status** to see whether the file is added to the stage or not (now it should be green).
+5. type **git commit -m "message"** to commit the change and Git will save a record of the change 
+6. type **git staus** it should say nothing to commit
 
 
 ---
