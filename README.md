@@ -85,4 +85,4 @@ origin  git@github.com:hengshengl7714/github-tutorial.git (push)
 **git reset HEAD filename** - Undo the adding after added to the stage area.  
 **git checkout -- filename** - Undo the all the editing before adding
 
-![revertchange](Reverting.PNG)
+![revertchange](revert.PNG)
