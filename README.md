@@ -123,7 +123,7 @@ nothing to commit, working tree clean
 
 What if you want to work on someone else's work and have your own remote to push the changes?
 1.  You have to **fork** their repo to make a your own repo.
-![Fork](Fork.PNG)
+![Fork](Fork.png)
 2. Log into your Local IDE
 3. CD into the parent folder where you want to make the repo
 4. Type **Git clone URL** (to clone the remote to your local IDE)
@@ -133,9 +133,10 @@ What if you want to work on someone else's work and the changes will happen on t
 2. **Clone** your repo to the **Local IDE**.
 3. Make changes on your own local IDE (Add and Commit). 
 4. push the changes to the remote(Git push).
-5. Send a **pull request** to the owner.
-6. Log into Github.com.
-7. Click the repo.
-8. Click **New pull request**.
-9. Click **Create new pull requests**.
-10. Wait for approve : ). 
+5. Log into Github.com.
+6. Click the repo.
+7. Click **New pull request**.
+![Pull requests](Pull-request.png)
+8. Click **Create new pull requests**.
+![New](New.png)
+9. Wait for approve : ). 
