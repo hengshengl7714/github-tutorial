@@ -112,4 +112,6 @@ nothing to commit, working tree clean
 * How to remove a repo locally? -- go to the parent folder of the repo and type **rm -rf [folder name]**
 * How to remove a repo remotelly? 
     1. go to your remote website (GitHub) 
-
+    2. go to the repo that you want remove. 
+    3. go to setting. 
+    4. scroll down and click **Delete this repository**.
