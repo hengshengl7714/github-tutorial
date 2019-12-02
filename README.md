@@ -115,3 +115,27 @@ nothing to commit, working tree clean
     2. go to the repo that you want remove. 
     3. go to setting. 
     4. scroll down and click **Delete this repository**.
+
+---
+## Cloning Vs. Forking
+* Clone - When you clone someone's repo on GitHub, you're using the SSH link to upload their remote repo to your local IDE and when you push the work to the remote, the work is push to the **owner's remote**. You need the permission to the the changes.   
+* Fork  - When you fork someone's repo on GitHub, you're making your **own** remote out of the owner's **remote**. 
+
+What if you want to work on someone else's work and have your own remote to push the changes?
+1.  You have to **fork** their repo to make a your own repo.
+![Fork](Fork.PNG)
+2. Log into your Local IDE
+3. CD into the parent folder where you want to make the repo
+4. Type **Git clone URL** (to clone the remote to your local IDE)
+
+What if you want to work on someone else's work and the changes will happen on the Owner's repo
+1. **Fork** the owner's repo.
+2. **Clone** your repo to the **Local IDE**.
+3. Make changes on your own local IDE (Add and Commit). 
+4. push the changes to the remote(Git push).
+5. Send a **pull request** to the owner.
+6. Log into Github.com.
+7. Click the repo.
+8. Click **New pull request**.
+9. Click **Create new pull requests**.
+10. Wait for approve : ). 
