@@ -104,7 +104,6 @@ nothing to commit, working tree clean
 **git reset HEAD filename** - Undo the adding after added to the stage area.  
 **git checkout -- filename** - Undo the all the editing before adding
 
-![revertchange](revert.PNG)
 
 ---
 ## Error handling 
